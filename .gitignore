@@ -1,0 +1,35 @@
+# ============================================================
+# ENVIRONNEMENTS PYTHON
+# ============================================================
+# Le dossier venv contient des milliers de fichiers Python
+# installés localement. Chaque développeur le recrée lui-même.
+# Il ne sert à rien de l'envoyer sur GitHub.
+venv/
+.env/
+__pycache__/
+*.pyc
+*.pyo
+
+# ============================================================
+# FICHIERS SECRETS — NE JAMAIS ENVOYER SUR GITHUB
+# ============================================================
+# Les fichiers .env contiennent des mots de passe, clés API,
+# identifiants de base de données. C'est ultra-confidentiel.
+.env
+*.pem
+*.key
+
+# ============================================================
+# FICHIERS SYSTÈME — GÉNÉRÉS AUTOMATIQUEMENT
+# ============================================================
+# Ces fichiers sont créés automatiquement par Windows, Mac,
+# les éditeurs de code. Ils n'ont aucune valeur pour le projet.
+.DS_Store
+Thumbs.db
+.vscode/settings.json
+
+# ============================================================
+# DOCKER
+# ============================================================
+# Fichiers temporaires générés par Docker
+*.log
